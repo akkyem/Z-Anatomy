@@ -6,9 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
 using System.Linq;
-using UnityFx.Outline.URP;
 using System.Reflection;
-using UnityEngine.Experimental.Rendering.Universal;
 
 public class Settings : MonoBehaviour
 {
@@ -76,7 +74,6 @@ public class Settings : MonoBehaviour
     private void Start()
     {
         ReadPlayerPrefs();
-        SetOutline(false);
     }
 
     private void ReadPlayerPrefs()
